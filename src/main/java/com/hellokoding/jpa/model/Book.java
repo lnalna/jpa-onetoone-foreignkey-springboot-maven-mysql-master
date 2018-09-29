@@ -21,7 +21,6 @@ public class Book {
         this.bookDetail = bookDetail;
     }
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public int getId() {
